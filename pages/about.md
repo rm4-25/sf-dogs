@@ -10,39 +10,10 @@ credits: true
 
 {% include feature/jumbotron.html objectid="/assets/img/jj-ying-WmnsGyaFnCQ-unsplash_opt.jpg" %}
 
-## About CollectionBuilder-Sheets
+## About this collection
 
-This site is generated using [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a template  for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills and easy hosting on GitHub Pages.
+The purpose of SF-dogs is to create a digital collection of metadata to compliment my dissertation project on dogs in speculative fiction from mid-twentieth and twenty-first century literature. The dataset includes an aggregated version of independent blogger Dave Hooks’ list and my own list of speculative fiction texts that feature dogs (“Dogs and Speculative”). I will also use the DogSpeak dataset, [Stanford Dogs](https://www.tensorflow.org/datasets/catalog/stanford_dogs_, and quotes from the stories to layer real-dogs onto digital space to reflect upon human-dog relations outside the simulacrum. My digital approach is twofold; first, a collection of tabular metadata categorizing SF dogs/wolves by type and relation to each fiction story; secondly, an interactive gamified exploration to answer the question who is a dog anyway? using the three sorts of data mentioned above that would otherwise remain uncombined and collectively untheorized. The digital output I envision is a website built to organize the metadata and make it searchable with a critical creative element for interactive exploration. While the former invites literary researchers of animals in speculative fiction, the latter engages quotes, sounds, and images of dogs to blur relations with actual companion species.
 
-Using CB-Sheets, it is possible to use a live Google Sheets spreadsheet for your collection metadata, allowing you to see the outcome of metadata edits update immediately.
-This enables active collaboration to prototype collections with minimal set up.
+SF-dogs beings with the question: what makes a dog, well, a dog? The project investigates the connection between people and canines through patterns extracted from a recent canon of speculative fiction that features dogs. Grounded in animal and cultural studies, this project will act as an explorative digital companion to my dissertation project, which examines the human-dog subjects through SF narratives over the last century to ask whether this textual canon of human-animal relation developed, challenged, matched, or aligned with material technological capabilities and ecological situations of the time.
 
-<button class="btn btn-lg btn-success" data-bs-toggle="modal" data-bs-target="#cbSetUpModal">
-    <svg class="bi icon-sprite" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-        <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
-        <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
-    </svg> 
-    Change the Metadata!
-</button>
-{:.text-center}
-
-## Create your own Metadata
-
-To create metadata compatible with this CollectionBuilder-Sheets instance the best way to get started is to make of copy of our template in Google Drive:
-
-[CollectionBuilder Metadata Template](https://docs.google.com/spreadsheets/d/1Uv9ytll0hysMOH1j-VL1lZx6PWvc1zf3L35sK_4IuzI/copy?usp=sharing){:.btn .btn-outline-primary}
-{:.text-center}
-
-Alternatively, you can [download the template CSV]({{ '/assets/metadata-template.csv' | relative_url }}) and work on your local machine.
-We suggest editing your CSV using [LibreOffice](https://www.libreoffice.org/) Calc, [OpenRefine](https://openrefine.org/), or Google Sheets (and do not suggest using Excel, since Excel's CSV output is not correctly formatted).
-
-Describe your items in your copy of the template, following the [Metadata Guidelines]({{ '/metadata.html' | relative_url }}). 
-
-Once you have items added you can test your metadata by clicking the "Change the Metadata" button above.
-
-## Learn More
-
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
-
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
-Featured image by [JJ Ying on Unsplash](https://unsplash.com/photos/WmnsGyaFnCQ).
+A digital approach supports this work because I can use it to visualize tabular data of hundreds of instances of dogs featured in SF short stories, novels, and novellas. Moreover, I could not publish a monograph with the interactive element I am imagining without the digital platform. Digital methods are necessary to generate visual outputs from the metadata I’ve collected so far. At this moment, the concept of my data model focuses on two categorizations: Dog Relation to Story (antagonist, narrator, supporting character, protagonist) and Dog Type (telepathic, bioengineered, non-altered, altered by alien technology, cyborg-dog). My thinking on this data model is evolving, but I believe these two categories will help me render the data in a way to determine trends of SF dogs from 1945 to present.
