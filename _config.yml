@@ -20,12 +20,12 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sheets
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: S/SF-Canids
+title: sf-dogs
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: a database 20th-21st century science and speculative fiction that feature canids.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "S/SF-Canids investigates the connection between people and canids through extracted patterns from a recent canon of S/SF."
+description: "sf-dogs investigates the connection between people and canids through extracted patterns from a recent canon of sf."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Raul Martin IV
 
